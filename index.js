@@ -16,9 +16,9 @@
 // stack.pop() 
 // console.log(stack) // should show ['second item', 'third item']
 
-const { stack} = require('./stack.js')
-const { queue } = require('./queue.js')
-const { priorityQueue } = require('./priorityqueue.js')
+const { stack} = require('./data structures/stack.js')
+const { queue } = require('./data structures/queue.js')
+const { priorityQueue } = require('./data structures/priorityqueue.js')
 
 console.log('stack: ', stack) // ['first item', 'second item', 'third item', 'fourth item']
 console.log('queue: ', queue) // ['first item', 'second item', 'third item', 'fourth item']
