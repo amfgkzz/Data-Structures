@@ -24,25 +24,25 @@
 // 3. music playlist
 // 4. file system
 
-const linkedList = []
+// const linkedList = []
 
-linkedList.push("A")
-linkedList.push("B")
-linkedList.push("C")
-linkedList.push("D")
-linkedList.push("E")
+// linkedList.push("A")
+// linkedList.push("B")
+// linkedList.push("C")
+// linkedList.push("D")
+// linkedList.push("E")
 
-console.log(linkedList) // ['A', 'B', 'C', 'D', 'E']
+// console.log(linkedList) // ['A', 'B', 'C', 'D', 'E']
 
-linkedList.pop()
-console.log(linkedList) // ['A', 'B', 'C', 'D']
+// linkedList.pop()
+// console.log(linkedList) // ['A', 'B', 'C', 'D']
 
-linkedList.unshift(0)
-linkedList.unshift(1)
-console.log(linkedList) // [1, 0, 'A', 'B', 'C', 'D']
+// linkedList.unshift(0)
+// linkedList.unshift(1)
+// console.log(linkedList) // [1, 0, 'A', 'B', 'C', 'D']
 
-linkedList.shift()
-linkedList.shift()
-console.log(linkedList) // ['A', 'B', 'C', 'D']
+// linkedList.shift()
+// linkedList.shift()
+// console.log(linkedList) // ['A', 'B', 'C', 'D']
 
 // creating a linked list in javascript, stuck on the add prototype function for the array, need to make it where the array length is increased and also able to add in the index, value needed for the add method

@@ -16,34 +16,34 @@
 // stack.pop() 
 // console.log(stack) // should show ['second item', 'third item']
 
-const { stack} = require('./data structures/stack.js')
+const { stack } = require('./data structures/stack.js')
 const { queue } = require('./data structures/queue.js')
 const { priorityQueue } = require('./data structures/priorityqueue.js')
 
 console.log('stack: ', stack) // ['first item', 'second item', 'third item', 'fourth item']
-console.log('queue: ', queue) // ['first item', 'second item', 'third item', 'fourth item']
-stack.pop()
-queue.shift()
-console.log('stack: ', stack)
-console.log('queue: ', queue)
-console.log('priorityQueue: ', priorityQueue) // sorted from lowest to highest
+// console.log('queue: ', queue) // ['first item', 'second item', 'third item', 'fourth item']
+// stack.pop()
+// queue.shift()
+// console.log('stack: ', stack)
+// console.log('queue: ', queue)
+// console.log('priorityQueue: ', priorityQueue) // sorted from lowest to highest
 
 const linkedList = []
 
-linkedList.push("A")
-linkedList.push("B")
-linkedList.push("C")
-linkedList.push("D")
-linkedList.push("E")
+// linkedList.push("A")
+// linkedList.push("B")
+// linkedList.push("C")
+// linkedList.push("D")
+// linkedList.push("E")
 
-console.log(linkedList) // ['A', 'B', 'C', 'D', 'E']
+// console.log(linkedList) // ['A', 'B', 'C', 'D', 'E']
 
-linkedList.pop()
-console.log(linkedList) // ['A', 'B', 'C', 'D']
+// linkedList.pop()
+// console.log(linkedList) // ['A', 'B', 'C', 'D']
 
-linkedList.unshift(0)
-linkedList.unshift(1)
-console.log(linkedList) // [1, 0, 'A', 'B', 'C', 'D']
-linkedList.shift()
-linkedList.shift()
-console.log(linkedList) // ['A', 'B', 'C', 'D']
+// linkedList.unshift(0)
+// linkedList.unshift(1)
+// console.log(linkedList) // [1, 0, 'A', 'B', 'C', 'D']
+// linkedList.shift()
+// linkedList.shift()
+// console.log(linkedList) // ['A', 'B', 'C', 'D']
